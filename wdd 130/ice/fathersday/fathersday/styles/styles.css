@@ -1,0 +1,48 @@
+/* Add your CSS here to style your father's day page */
+
+body {
+    border: solid, navy, 80px;
+    background-color: pink;
+    transition: 2s;
+}
+@keyframes spin {from 
+    {transform: rotateY(0deg);}
+    to
+    {transform: rotateY(360deg);}
+}
+
+h1,h2 {
+    color: navy;
+    justify-self: center;
+    background-color: silver;
+    animation: spin 2s linear infinite ;
+}
+
+
+ul {
+    justify-self: center;
+    font-size: 50px;
+    color: black;
+    background-color: antiquewhite;
+padding: 90px,40px;}
+
+li{display: inline;
+margin-left: 50px;
+margin-right: 50px;}
+
+img {
+    border: solid, red, 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+    transition: 2s;
+    
+}
+
+img:hover {
+    border: solid, pink, 8px;
+    transform: rotate(360deg);
+    size: 25%;
+}
